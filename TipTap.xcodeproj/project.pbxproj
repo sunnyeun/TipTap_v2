@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D76A59A520889F55007E8733 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D76A59A420889F55007E8733 /* Logo.png */; };
+		D7FD17FF2080970E00C45022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FD17FE2080970E00C45022 /* AppDelegate.swift */; };
+		D7FD18012080970E00C45022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FD18002080970E00C45022 /* ViewController.swift */; };
+		D7FD18042080970E00C45022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FD18022080970E00C45022 /* Main.storyboard */; };
+		D7FD18062080970E00C45022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FD18052080970E00C45022 /* Assets.xcassets */; };
+		D7FD18092080970E00C45022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FD18072080970E00C45022 /* LaunchScreen.storyboard */; };
+		D7FD18152085907600C45022 /* OstrichSans-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = D7FD18142085907500C45022 /* OstrichSans-Heavy.otf */; };
+		D7FD18172085923700C45022 /* Aldo PC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7FD18162085923600C45022 /* Aldo PC.ttf */; };
+		D7FD181920866D9800C45022 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FD181820866D9800C45022 /* RoundedCorner.swift */; };
+		D7FD181C20866FD900C45022 /* ResetArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FD181B20866FD900C45022 /* ResetArrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D76A59A420889F55007E8733 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		D7FD17FB2080970E00C45022 /* TipTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FD17FE2080970E00C45022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7FD18002080970E00C45022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7FD18032080970E00C45022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7FD18052080970E00C45022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7FD18082080970E00C45022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7FD180A2080970E00C45022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FD18132080980C00C45022 /* DidactGothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DidactGothic-Regular.ttf"; sourceTree = "<group>"; };
+		D7FD18142085907500C45022 /* OstrichSans-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OstrichSans-Heavy.otf"; path = "Fonts/OstrichSans-Heavy.otf"; sourceTree = SOURCE_ROOT; };
+		D7FD18162085923600C45022 /* Aldo PC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aldo PC.ttf"; sourceTree = "<group>"; };
+		D7FD181820866D9800C45022 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		D7FD181B20866FD900C45022 /* ResetArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ResetArrow.png; path = Images/ResetArrow.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7FD17F82080970E00C45022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7FD17F22080970E00C45022 = {
+			isa = PBXGroup;
+			children = (
+				D7FD17FD2080970E00C45022 /* TipTap */,
+				D7FD17FC2080970E00C45022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7FD17FC2080970E00C45022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7FD17FB2080970E00C45022 /* TipTap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FD17FD2080970E00C45022 /* TipTap */ = {
+			isa = PBXGroup;
+			children = (
+				D7FD18122080980700C45022 /* Fonts */,
+				D7FD181A20866FB900C45022 /* Images */,
+				D7FD17FE2080970E00C45022 /* AppDelegate.swift */,
+				D7FD18002080970E00C45022 /* ViewController.swift */,
+				D7FD18022080970E00C45022 /* Main.storyboard */,
+				D7FD18052080970E00C45022 /* Assets.xcassets */,
+				D7FD18072080970E00C45022 /* LaunchScreen.storyboard */,
+				D7FD180A2080970E00C45022 /* Info.plist */,
+				D7FD181820866D9800C45022 /* RoundedCorner.swift */,
+			);
+			path = TipTap;
+			sourceTree = "<group>";
+		};
+		D7FD18122080980700C45022 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7FD18162085923600C45022 /* Aldo PC.ttf */,
+				D7FD18142085907500C45022 /* OstrichSans-Heavy.otf */,
+				D7FD18132080980C00C45022 /* DidactGothic-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D7FD181A20866FB900C45022 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D76A59A420889F55007E8733 /* Logo.png */,
+				D7FD181B20866FD900C45022 /* ResetArrow.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7FD17FA2080970E00C45022 /* TipTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FD180D2080970E00C45022 /* Build configuration list for PBXNativeTarget "TipTap" */;
+			buildPhases = (
+				D7FD17F72080970E00C45022 /* Sources */,
+				D7FD17F82080970E00C45022 /* Frameworks */,
+				D7FD17F92080970E00C45022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipTap;
+			productName = TipTap;
+			productReference = D7FD17FB2080970E00C45022 /* TipTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FD17F32080970E00C45022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sunny Eun";
+				TargetAttributes = {
+					D7FD17FA2080970E00C45022 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7FD17F62080970E00C45022 /* Build configuration list for PBXProject "TipTap" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7FD17F22080970E00C45022;
+			productRefGroup = D7FD17FC2080970E00C45022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FD17FA2080970E00C45022 /* TipTap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7FD17F92080970E00C45022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FD18092080970E00C45022 /* LaunchScreen.storyboard in Resources */,
+				D76A59A520889F55007E8733 /* Logo.png in Resources */,
+				D7FD18172085923700C45022 /* Aldo PC.ttf in Resources */,
+				D7FD18062080970E00C45022 /* Assets.xcassets in Resources */,
+				D7FD18042080970E00C45022 /* Main.storyboard in Resources */,
+				D7FD18152085907600C45022 /* OstrichSans-Heavy.otf in Resources */,
+				D7FD181C20866FD900C45022 /* ResetArrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7FD17F72080970E00C45022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FD181920866D9800C45022 /* RoundedCorner.swift in Sources */,
+				D7FD18012080970E00C45022 /* ViewController.swift in Sources */,
+				D7FD17FF2080970E00C45022 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7FD18022080970E00C45022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FD18032080970E00C45022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7FD18072080970E00C45022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FD18082080970E00C45022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7FD180B2080970E00C45022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7FD180C2080970E00C45022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7FD180E2080970E00C45022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPGM848CZH;
+				INFOPLIST_FILE = TipTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunnyeun.TipTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D7FD180F2080970E00C45022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TPGM848CZH;
+				INFOPLIST_FILE = TipTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunnyeun.TipTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7FD17F62080970E00C45022 /* Build configuration list for PBXProject "TipTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FD180B2080970E00C45022 /* Debug */,
+				D7FD180C2080970E00C45022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FD180D2080970E00C45022 /* Build configuration list for PBXNativeTarget "TipTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FD180E2080970E00C45022 /* Debug */,
+				D7FD180F2080970E00C45022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7FD17F32080970E00C45022 /* Project object */;
+}
